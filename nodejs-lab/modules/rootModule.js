@@ -1,6 +1,6 @@
 // modules/rootModule.js
 function rootContent(name) {
-    return `<h1>Welcome to the Home Page</h1><p>Hello, ${name}!</p>`;
+    return `<h1>Welcome to my Node.js Application</h1><p>Hello, ${name}! This is an activity about basics of Node.js</p>`;
 }
 
 module.exports = rootContent;

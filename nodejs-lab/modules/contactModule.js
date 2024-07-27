@@ -1,6 +1,6 @@
 // modules/aboutModule.js
 function aboutContent(name) {
-    return `<h1>About Us</h1><p>We are a company dedicated to serving you. Hello, ${name}!</p>`;
+    return `<h1>This is the Contact Page</h1><p>${name}, if you want additional details about this activity go to this site: https://www.tutorialsteacher.com/nodejs/nodejs-tutorials </p>`;
 }
 
 module.exports = aboutContent;

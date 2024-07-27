@@ -8,7 +8,7 @@ const port = 3000;
 const rootModule = require('./modules/rootModule');
 const aboutModule = require('./modules/aboutModule');
 const contactModule = require('./modules/contactModule');
-
+const galleryModule = require('./modules/galleryModule');
 // Middleware to set a name
 const name = 'John Smith';
 
@@ -26,7 +26,7 @@ app.get('/contact', (req, res) => {
 });
 
 app.get('/gallery', (req, res) => {
-    res.send('<h1>Gallery</h1><p>Welcome to the Gallery page!</p>');
+    res.send(galleryModule(name));
 });
 
 app.use((req, res) => {
