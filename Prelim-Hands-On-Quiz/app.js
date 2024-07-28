@@ -7,7 +7,7 @@ const hoursWorkedPerDay = 4;
 const daysWorkedPerWeek = 6;
 
 const grossIncome = multiply(ratePerHour, multiply(hoursWorkedPerDay, daysWorkedPerWeek));
-const tax = divide(grossIncome, 10);  // 10% tax
+const tax = divide(grossIncome, 10);  
 const sss = 1200;
 const pagIbigFund = 300;
 const philHealth = 400;
