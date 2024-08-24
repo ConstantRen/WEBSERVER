@@ -1,0 +1,24 @@
+What is REST?
+REST (Representational State Transfer) is an architectural style for designing networked applications. It uses HTTP requests to perform CRUD operations on resources identified by URLs. Key principles include stateless communication, a uniform interface, and client-server separation.
+
+What is Stateless?
+In REST, stateless means each request from a client to a server must include all necessary information for the server to process it. The server does not retain any client session data between requests.
+
+Scenario: In an online banking app, each request to check an account balance must include the authentication token and account details. The server processes each request independently without storing any previous interactions.
+
+Forms of Authentication
+Basic Authentication:
+
+How: Sends username and password encoded in base64 with each request.
+Pros: Simple, widely supported.
+Cons: Not secure alone; needs HTTPS.
+Token-Based Authentication:
+
+How: Uses a token (like JWT) sent with requests after initial login.
+Pros: More secure than Basic Authentication, tokens can expire.
+Cons: Requires secure token management.
+OAuth:
+
+How: Provides access tokens through an authorization server, allowing third-party access without sharing credentials.
+Pros: Secure and flexible for third-party integrations.
+Cons: Complex to implement.
